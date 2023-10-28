@@ -4,8 +4,7 @@ export default class RealApiClient {
   constructor() {
     this.httpClient = axios.create({
       baseURL: "https://www.googleapis.com/youtube/v3",
-      // params: { key: import.meta.env.REACT_APP_YOUTUBE_API_KEY },
-      params: { key: "AIzaSyB8ZMknWOK3AieJIn1uaxqQQLOZHYe2cZ0" },
+      params: { key: import.meta.env.VITE_YOUTUBE_API_KEY },
     });
   }
 
