@@ -1,0 +1,43 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "_OoWlRxF9cHHI4ubmN87uKSHJE4",
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#channel",
+      "etag": "H9L6k9ny3ZHoaMbfEi7mc0dEzhY",
+      "id": "UC-ZHt5Zgadfx-B1CM63Lqew",
+      "snippet": {
+        "title": "WayV",
+        "description": "【On My Youth - The 2nd Album】 Digital Album ➫ 11.01 | Physical Album ➫ 11.08 \n\nWelcome to WayV official YouTube Channel\n",
+        "customUrl": "@wayv",
+        "publishedAt": "2018-11-27T10:32:39Z",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/jqg0KFYspDeEufkJCKuS2A0uH4TLRPeiAw62B99aZp_aIVb5akckfS2GcDfRS0kW6apqRdx2=s88-c-k-c0x00ffffff-no-nd-rj",
+            "width": 88,
+            "height": 88
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/jqg0KFYspDeEufkJCKuS2A0uH4TLRPeiAw62B99aZp_aIVb5akckfS2GcDfRS0kW6apqRdx2=s240-c-k-c0x00ffffff-no-nd-rj",
+            "width": 240,
+            "height": 240
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/jqg0KFYspDeEufkJCKuS2A0uH4TLRPeiAw62B99aZp_aIVb5akckfS2GcDfRS0kW6apqRdx2=s800-c-k-c0x00ffffff-no-nd-rj",
+            "width": 800,
+            "height": 800
+          }
+        },
+        "localized": {
+          "title": "WayV",
+          "description": "【On My Youth - The 2nd Album】 Digital Album ➫ 11.01 | Physical Album ➫ 11.08 \n\nWelcome to WayV official YouTube Channel\n"
+        },
+        "country": "CN"
+      }
+    }
+  ]
+}
