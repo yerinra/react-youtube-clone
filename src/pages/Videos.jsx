@@ -18,12 +18,6 @@ const Videos = () => {
     staleTime: 5 * 60 * 1000,
   });
 
-  // const [] = useEffect(() => {
-  //   axios.get(mostPopularURL).then((res) => {
-  //     setVidData(res.data.items);
-  //   });
-  // }, []);
-
   /*
 각각의 v.id 
 v.snippet.publishedAt

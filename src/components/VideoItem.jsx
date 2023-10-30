@@ -3,6 +3,7 @@ import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 import { useNavigate } from "react-router-dom";
 import ChannelImage from "./ChannelImage";
+import { useEffect } from "react";
 
 dayjs.extend(relativeTime);
 
@@ -10,6 +11,7 @@ const VideoItem = ({ vid, type }) => {
   const navigate = useNavigate();
   const isList = type === "list";
 
+  useEffect(() => console.log(vid), []);
   return (
     <li
       className={
